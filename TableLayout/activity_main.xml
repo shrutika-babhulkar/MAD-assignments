@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:stretchColumns="*">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Marks Table 📊"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Header Row -->
+        <TableRow android:background="#E0E0E0">
+
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:text="Subject"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:text="Marks"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <!-- Row 1 -->
+        <TableRow>
+            <TextView android:text="Sharvari" android:textColor="#212121" android:padding="10dp"/>
+            <TextView android:text="Maths" android:textColor="#212121" android:padding="10dp"/>
+            <TextView android:text="88" android:textColor="#212121" android:padding="10dp"/>
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow android:background="#F5F5F5">
+            <TextView android:text="Shrutika" android:textColor="#212121" android:padding="10dp"/>
+            <TextView android:text="Science" android:textColor="#212121" android:padding="10dp"/>
+            <TextView android:text="92" android:textColor="#212121" android:padding="10dp"/>
+        </TableRow>
+
+        <!-- Row 3 -->
+        <TableRow>
+            <TextView android:text="Suyash" android:textColor="#212121" android:padding="10dp"/>
+            <TextView android:text="English" android:textColor="#212121" android:padding="10dp"/>
+            <TextView android:text="96" android:textColor="#212121" android:padding="10dp"/>
+        </TableRow>
+
+        <!-- Button Row -->
+        <TableRow>
+            <Button
+                android:id="@+id/btnShow"
+                android:text="Show Result"
+                android:textColor="#FFFFFF"
+                android:layout_span="3"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#1976D2"/>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Box 1 -->
+    <Button
+        android:id="@+id/btn1"
+        android:text="Profile"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Box 2 -->
+    <Button
+        android:id="@+id/btn2"
+        android:text="Settings"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:backgroundTint="#42A5F5"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Box 3 -->
+    <Button
+        android:id="@+id/btn3"
+        android:text="Gallery"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:backgroundTint="#66BB6A"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Box 4 -->
+    <Button
+        android:id="@+id/btn4"
+        android:text="Messages"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:backgroundTint="#AB47BC"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Full Width Button -->
+    <Button
+        android:id="@+id/btn5"
+        android:text="Logout"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:backgroundTint="#EF5350"
+        android:textColor="#FFFFFF"/>
+
+</GridLayout>
